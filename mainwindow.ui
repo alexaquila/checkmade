@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1026</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1026</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCheckmade">
+    <property name="title">
+     <string>ga&amp;me</string>
+    </property>
+    <addaction name="actionNew_game"/>
+    <addaction name="actionSave_game"/>
+    <addaction name="actionLoad_game"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuKi">
+    <property name="title">
+     <string>&amp;ki</string>
+    </property>
+    <addaction name="actionSet_ki_strength"/>
+   </widget>
+   <addaction name="menuCheckmade"/>
+   <addaction name="menuKi"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_game">
+   <property name="text">
+    <string>&amp;new game</string>
+   </property>
+  </action>
+  <action name="actionSave_game">
+   <property name="text">
+    <string>&amp;save game</string>
+   </property>
+  </action>
+  <action name="actionLoad_game">
+   <property name="text">
+    <string>&amp;load game</string>
+   </property>
+  </action>
+  <action name="actionSet_ki_strength">
+   <property name="text">
+    <string>&amp;set ki strength</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>quit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
